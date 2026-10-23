@@ -1,0 +1,15 @@
+# ThreatLens — Security Log Analyzer
+# Tested with Python 3.9+
+# Install: pip install -r requirements.txt
+
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+ipykernel>=6.0.0
+notebook>=6.5.0
+python-docx>=0.8.11
+tabulate>=0.9.0
+Faker>=18.0.0
+pytz>=2023.3
+streamlit>=1.32.0
