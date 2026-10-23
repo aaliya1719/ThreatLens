@@ -128,7 +128,7 @@ Replace `data/raw/auth_logs.csv` with any CSV file that matches the schema above
 **Compatible public sources (optional):**
 - [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) — network intrusion dataset (requires column mapping)
 - [KDD Cup 1999](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) — classic network log data (requires column mapping)
-- Linux `/var/log/auth.log` — parse with the provided `src/generate_dataset.py` adapter
+- Linux `/var/log/auth.log` — export relevant fields to CSV and map them to the schema above (no adapter is bundled)
 
 ---
 
@@ -147,6 +147,7 @@ Replace `data/raw/auth_logs.csv` with any CSV file that matches the schema above
 | `pandas` | Log parsing, grouping, rule evaluation |
 | `numpy` | Numerical operations, distance calculations |
 | `matplotlib` / `seaborn` | Visualizations |
+| `streamlit` | Interactive web dashboard (`dashboard.py`) |
 | `python-docx` | Automated .docx report generation |
 | `Faker` | Synthetic log data generation |
 | `tabulate` | Pretty-print tables in notebook output |
